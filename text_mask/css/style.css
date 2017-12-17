@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: arial;
+	font-size: 12em;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	text-align: center;
+	margin: 550px auto;
+
+	background: url(../img/bg-art.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
