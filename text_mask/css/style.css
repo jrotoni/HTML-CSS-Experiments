@@ -4,18 +4,22 @@
 	box-sizing: border-box;
 }
 
+p {
+	font-size: 5vw !important;
+}
+
 h1 {
 	font-family: arial;
-	font-size: 12em;
-	font-weight: bold;
+	font-size: 15vw !important;
+	font-weight: bold !important;
 	text-transform: uppercase;
 
-	text-align: center;
-	margin: 550px auto;
+	text-align: center !important;
+	margin: 100vh auto !important;
 
 	background: url(../img/bg-art.jpg);
-	background-size: cover;
-	background-attachment: fixed;
+	background-size: cover !important;
+	background-attachment: fixed !important;
 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
